@@ -1,0 +1,23 @@
+{
+  "name": "qr_code_generator",
+  "version": "1.0.0",
+  "description": "Its a QR Generating Application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msrithanya/QR_Code_Generator.git"
+  },
+  "author": "Rithanya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msrithanya/QR_Code_Generator/issues"
+  },
+  "homepage": "https://github.com/msrithanya/QR_Code_Generator#readme",
+  "dependencies": {
+    "inquirer": "^12.7.0"
+  }
+}
