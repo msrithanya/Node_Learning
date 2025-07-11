@@ -21,9 +21,8 @@ app.post("/signin", (req, res) => {
   pass = req.body.password;
   res.sendFile(__dirname + "/signin.html");
 });
-
+// document.getElementById("id")
 app.post("/signup", (req, res) => {
-  console.log(uname, pass);
   if (req.body.susername == uname && req.body.spassword == pass) {
     res.sendFile(__dirname + "/success.html");
   } else {
